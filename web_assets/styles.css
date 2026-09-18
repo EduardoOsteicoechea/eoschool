@@ -505,6 +505,47 @@ body {
   outline-offset: 2px;
 }
 
+.print-menu {
+  position: fixed;
+  top: 58px;
+  right: 12px;
+  z-index: 101;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 11.5rem;
+  padding: 6px;
+  border-radius: 8px;
+  background: rgba(26, 26, 46, 0.96);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.28);
+}
+
+.print-menu__item {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  font: 600 11pt/1.2 var(--font-body);
+  text-align: left;
+  cursor: pointer;
+}
+
+.print-menu__item:hover,
+.print-menu__item:focus-visible {
+  background: var(--accent);
+  outline: none;
+}
+
+/* Documento solo con hojas landscape */
+body.sheets-landscape {
+  --page-width: 11in;
+  --page-height: 8.5in;
+}
+
 /* ── Impresión ────────────────────────────────────────────────────── */
 
 /* ── Hoja landscape (mapa) ──────────────────────────────────────── */
@@ -517,48 +558,28 @@ body {
 }
 
 .page--map {
-  display: grid;
-  grid-template-columns: 26% 1fr;
-  grid-template-rows: 1fr 5%;
-  grid-template-areas:
-    "sidebar main"
-    "footer footer";
-  height: calc(var(--page-height) - var(--page-padding-y) * 2);
-  gap: 6pt 8pt;
-  padding-bottom: 0;
-}
-
-.map-sidebar {
-  grid-area: sidebar;
-  min-width: 0;
-  min-height: 0;
   display: flex;
   flex-direction: column;
-  gap: 6pt;
+  height: calc(var(--page-height) - var(--page-padding-y) * 2);
+  gap: 5pt;
+  padding-bottom: 0;
   overflow: hidden;
 }
 
-.map-sidebar .map-top__header {
+.page--map .map-top__header {
   flex-shrink: 0;
 }
 
-.map-sidebar .map-top__header h1 {
-  font-size: 9.5pt;
+.page--map .map-top__tasks {
+  flex-shrink: 0;
 }
 
-.map-sidebar .map-top__tasks {
-  flex: 1;
+.page--map .map-body {
+  flex: 1 1 auto;
   min-height: 0;
-}
-
-.map-main {
-  grid-area: main;
-  min-width: 0;
-  min-height: 0;
-  display: grid;
-  grid-template-rows: minmax(2.15in, 38%) 1fr;
-  gap: 6pt;
-  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
 }
 
 .map-top__header {
@@ -688,15 +709,13 @@ body {
 }
 
 .page--map .sheet-footer {
-  grid-area: footer;
-  grid-column: 1 / -1;
+  flex-shrink: 0;
   position: static;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
-  padding: 0;
+  padding: 2pt 0 0;
   border-top: 0.5pt solid var(--rule);
   font-size: 7.5pt;
 }
@@ -795,12 +814,33 @@ body {
   overflow: hidden;
 }
 
+.map-grid__overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.2);
+  pointer-events: none;
+}
+
 .map-grid__svg {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: contain;
   pointer-events: none;
+}
+
+.map-grid__reference {
+  object-fit: cover;
+  object-position: center center;
+}
+
+.map-grid__reference--fit-height {
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center center;
 }
 
 .map-grid__cell {
@@ -889,7 +929,17 @@ body {
     box-shadow: none;
   }
 
-  .page--landscape {
+  /* Filtros usados por print.js (orientación mixta / impresión separada) */
+  body.print-filter-portrait .page--landscape {
+    display: none !important;
+  }
+
+  body.print-filter-landscape .page:not(.page--landscape) {
+    display: none !important;
+  }
+
+  .page--landscape,
+  body.sheets-landscape .page {
     page: landscape-page;
   }
 

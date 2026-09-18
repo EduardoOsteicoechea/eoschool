@@ -14,13 +14,13 @@ Registro automático de lo hecho. Se actualiza al crear o mover materiales de es
 | dia1 | 2026-09-17 | Preposiciones en español | `semana1/idiomas/dia1/_2026_09_17_idiomas_ciclo3_semana1_dia1_espanol-preposiciones.html` |
 | dia1 | 2026-09-17 | Preposiciones en inglés | `semana1/idiomas/dia1/_2026_09_17_idiomas_ciclo3_semana1_dia1_ingles-preposiciones.html` |
 | dia1 | 2026-09-17 | Preposiciones en griego | `semana1/idiomas/dia1/_2026_09_17_idiomas_ciclo3_semana1_dia1_griego-preposiciones.html` |
-| dia2 | 2026-09-18 | Geografía (todas las clases) | `semana1/idiomas/dia2/_2026_09_18_idiomas_ciclo3_semana1_dia2_geografia-completo.html` |
 
 ### locación / geografia
 
 | Día | Fecha | Tema | Archivo |
 |-----|-------|------|---------|
-| — | — | *(carpeta lista; sin material HTML aún)* | `semana1/locación/geografia/dia1/` |
+| dia1 | 2026-09-18 | Geografía — clases y preguntas (vertical) | `semana1/locación/geografia/dia1/_2026_09_18_locacion_ciclo3_semana1_dia1_geografia-vertical.html` |
+| dia1 | 2026-09-18 | Geografía — mapas (horizontal) | `semana1/locación/geografia/dia1/_2026_09_18_locacion_ciclo3_semana1_dia1_geografia-horizontal.html` |
 
 ---
 
@@ -28,4 +28,4 @@ Registro automático de lo hecho. Se actualiza al crear o mover materiales de es
 
 | Semana | Materias con material | Días cubiertos |
 |--------|----------------------|----------------|
-| semana1 | idiomas | dia1 (4 clases), dia2 (1 documento completo de Geografía) |
+| semana1 | idiomas, locación/geografia | dia1 idiomas (4 clases); dia1 geografía (vertical + horizontal) |

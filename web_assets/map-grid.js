@@ -18,6 +18,16 @@
     east: 59.6,
   };
 
+  /* Acercamientos sobre venezuela.svg (origen % dentro del contorno) */
+  var ZOOM_LEVELS = {
+    pais: { scale: 1, originX: 50, originY: 50 },
+    estado: { scale: 3.2, originX: 27, originY: 63 },
+    ciudad: { scale: 6, originX: 25.5, originY: 64.5 },
+    municipio: { scale: 10, originX: 25.2, originY: 64.8 },
+    parroquia: { scale: 16, originX: 25, originY: 65 },
+    sector: { scale: 26, originX: 24.8, originY: 65.2 },
+  };
+
   function rowLetter(index) {
     var n = index;
     var label = "";
@@ -45,13 +55,34 @@
 
   function resolveMapUrl(host, options) {
     if (options.mapUrl) return options.mapUrl;
+    if (options.referenceUrl) return options.referenceUrl;
+    var reference = host.getAttribute("data-reference");
+    if (reference) return reference;
     if (options.imageUrl) return options.imageUrl;
     if (options.svgUrl) return options.svgUrl;
-    var image = host.getAttribute("data-image");
-    if (image) return image;
     var svg = host.getAttribute("data-svg");
     if (svg) return svg;
+    var image = host.getAttribute("data-image");
+    if (image) return image;
     return "venezuela.svg";
+  }
+
+  function usesReference(host, options) {
+    return !!(
+      options.referenceUrl ||
+      host.getAttribute("data-reference")
+    );
+  }
+
+  function resolveZoom(host, options) {
+    var zoom = options.zoom || host.getAttribute("data-zoom");
+    return ZOOM_LEVELS[zoom] ? zoom : "pais";
+  }
+
+  function applyZoom(mapImg, zoomKey) {
+    var zoom = ZOOM_LEVELS[zoomKey] || ZOOM_LEVELS.pais;
+    mapImg.style.transformOrigin = zoom.originX + "% " + zoom.originY + "%";
+    mapImg.style.transform = zoom.scale === 1 ? "none" : "scale(" + zoom.scale + ")";
   }
 
   function latLngToCell(lat, lng, cols, rows) {
@@ -81,11 +112,15 @@
     var cols = resolveCols({ mode: mode, cols: options.cols });
     var rows = rowsForCols(cols, mode);
     var mapUrl = resolveMapUrl(host, options);
+    var isReference = usesReference(host, options);
+    var zoomKey = resolveZoom(host, options);
     var totalCols = cols + 2;
     var totalRows = rows + 2;
 
     host.classList.add("map-grid");
+    host.classList.add("map-grid--zoom-" + zoomKey);
     host.setAttribute("data-map-mode", mode);
+    host.setAttribute("data-map-zoom", zoomKey);
     host.setAttribute("data-map-cols", String(cols));
     host.setAttribute("data-map-rows", String(rows));
     host.innerHTML = "";
@@ -108,7 +143,21 @@
     mapImg.src = mapUrl;
     mapImg.alt = "";
     mapImg.draggable = false;
+    if (isReference) {
+      mapImg.classList.add("map-grid__reference");
+      if (host.getAttribute("data-fit") === "height") {
+        mapImg.classList.add("map-grid__reference--fit-height");
+      }
+    } else {
+      applyZoom(mapImg, zoomKey);
+    }
     mapLayer.appendChild(mapImg);
+
+    var overlay = document.createElement("div");
+    overlay.className = "map-grid__overlay";
+    overlay.setAttribute("aria-hidden", "true");
+    mapLayer.appendChild(overlay);
+
     board.appendChild(mapLayer);
 
     var r;
@@ -161,9 +210,12 @@
       instances.push(
         mount(node, {
           mode: node.getAttribute("data-mode"),
+          zoom: node.getAttribute("data-zoom"),
+          referenceUrl: node.getAttribute("data-reference"),
           mapUrl:
-            node.getAttribute("data-image") ||
-            node.getAttribute("data-svg"),
+            node.getAttribute("data-reference") ||
+            node.getAttribute("data-svg") ||
+            node.getAttribute("data-image"),
         })
       );
     });
@@ -179,6 +231,7 @@
   window.StudyMapGrid = {
     MODES: MODES,
     BOUNDS: BOUNDS,
+    ZOOM_LEVELS: ZOOM_LEVELS,
     mount: mount,
     autoMount: autoMount,
     rowsForCols: rowsForCols,
