@@ -1,0 +1,34 @@
+TITULO: Geografía — Ciudad de Mérida
+META: Ciclo 3 · Idiomas · Clase 2 · Nivel ciudad
+MAPA: municipio.png
+MODO: ciudades
+CUADRICULA: 32×32
+
+CLASE:
+La CIUDAD es el lugar urbano (casas, calles, plazas). No es un nivel oficial aparte: está DENTRO del municipio.
+La ciudad de Mérida está en el Municipio Libertador, en un valle andino. El municipio es más grande que una sola parroquia.
+Nombre completo histórico: Santiago de los Caballeros de Mérida.
+
+HITO importante: Plaza Bolívar (centro histórico) y el Teleférico Mukumbarí (estación cerca del centro).
+En el mapa: identifica la ciudad, marca un hito y nombra pueblos/áreas vecinas.
+
+VECINOS de la ciudad: Ejido, Tabay, El Valle, Manzano Alto, San Juan (pueblos y parroquias cercanas en el valle).
+
+PREGUNTAS:
+1|¿Qué nivel es la ciudad de Mérida?|País|Estado|Ciudad|Sector|C
+2|La ciudad está en un…|Desierto|Valle andino|Delta|Isla|B
+3|Hito famoso de la ciudad:|El Orinoco|Teleférico Mukumbarí|Salto Ángel|Catatumbo|B
+4|Ejido es un vecino…|Del país|De la ciudad|Del continente|Del océano|B
+5|Tabay queda al… de Mérida|Noreste|Sur oeste|Sur del Pacífico|Norte del Amazonas|A
+6|En el mapa, módulo de la ciudad: ______|Respuesta escrita|—|—|—|A
+7|¿La ciudad es capital del estado Mérida?|Sí|No|—|—|A
+8|Parque Los Aleros está cerca de…|Tabay|Maracaibo|Caracas|Cumaná|A
+9|La ciudad fue fundada en…|1558|1810|1492|2000|A
+10|¿Cuál es un vecino del valle de Mérida?|El Valle|Margarita|Coro|Ciudad Guayana|A
+11|El centro histórico se llama también…|Plaza Bolívar|Plaza Caracas|Plaza Colombia|Plaza Brasil|A
+12|La ciudad está dentro del estado…|Zulia|Mérida|Miranda|Bolívar|B
+
+MAPA_TAREAS:
+Colorea clarito los módulos de la ciudad de Mérida
+Marca el hito: Teleférico Mukumbarí o Plaza Bolívar
+Vecinos: Ejido, Tabay, El Valle, Manzano Alto

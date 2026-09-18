@@ -1,0 +1,34 @@
+TITULO: Geografía — Municipio Libertador
+META: Ciclo 3 · Idiomas · Clase 2 · Nivel municipio
+MAPA: municipio.png
+MODO: ciudades
+CUADRICULA: 32×32
+
+CLASE:
+El MUNICIPIO es la división local con alcalde. La capital del estado Mérida es el Municipio Libertador (ciudad de Mérida).
+Está dividido en parroquias.
+
+HITO importante: Parque Los Aleros (cerca de Tabay) y la Universidad de los Andes (ULA).
+En el mapa: identifica el municipio, marca un hito y nombra parroquias vecinas.
+
+PARROQUIAS del municipio (vecinas entre sí): Spinetti Dini, El Centro, El Carmen, Jacinto Plaza, Montalbán, Gonzalo Picón Febres, La Mesa, Ignacio Fernández Peña, y otras.
+Al sureste limita con el estado Barinas.
+
+PREGUNTAS:
+1|¿Qué nivel es el Municipio Libertador?|País|Estado|Municipio|Sector|C
+2|¿Quién gobierna un municipio?|El presidente|El alcalde|El rector|El capitán|B
+3|Parroquia Montalbán está al… del centro|Noroeste|Sur del Amazonas|Este de Brasil|Oeste del Orinoco|A
+4|Hito cerca del municipio:|Parque Los Aleros|Lago de Valencia|Salto Kukenán|Morrocoy|A
+5|La ULA es una…|Playa|Universidad|Fábrica|Isla|B
+6|En el mapa, módulos del municipio: ______|Respuesta escrita|—|—|—|A
+7|Parroquia El Centro está cerca de…|La Plaza Bolívar y el Teleférico|Maracaibo|Caracas|Coro|A
+8|¿Barinas es vecino al sureste?|Sí|No|—|—|A
+9|Un municipio se divide en…|Países|Parroquias|Océanos|Continentes|B
+10|Gonzalo Picón Febres es una…|Ciudad|Parroquia|Playa|Montaña|B
+11|¿El municipio incluye la ciudad de Mérida?|Sí|No|—|—|A
+12|Jacinto Plaza es una parroquia…|Vecina|Del Brasil|Del Caribe|De Europa|A
+
+MAPA_TAREAS:
+Colorea clarito los módulos del Municipio Libertador
+Marca el hito: Parque Los Aleros o ULA
+Vecinos (parroquias): Montalbán, El Centro, Gonzalo Picón Febres, Jacinto Plaza

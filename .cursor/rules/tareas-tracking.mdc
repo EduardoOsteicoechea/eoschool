@@ -1,0 +1,51 @@
+---
+description: Actualizar cicloN/tareas.md al crear o cambiar materiales de estudio
+alwaysApply: true
+---
+
+# Seguimiento de tareas (`tareas.md`)
+
+Cada vez que se **cree, renombre, mueva o elimine** un material de estudio HTML (o se complete una sesión/día), actualizar **en el mismo turno** el archivo `cicloN/tareas.md` del ciclo correspondiente.
+
+No pedir permiso: es parte automática del cierre del trabajo.
+
+## Ubicación
+
+- Un `tareas.md` por ciclo: `ciclo3/tareas.md`, `ciclo4/tareas.md`, …
+- Si no existe, crearlo con la estructura de abajo.
+
+## Estructura obligatoria
+
+```markdown
+# Tareas — Ciclo N
+
+## Semana K
+
+### <materia>
+
+| Día | Fecha | Tema | Archivo |
+|-----|-------|------|---------|
+| dia1 | yyyy-mm-dd | Tema legible | `semanaK/materia/dia1/_….html` |
+
+## Resumen
+
+| Semana | Materias con material | Días cubiertos |
+|--------|----------------------|----------------|
+| semanaK | materia | dia1 (…) |
+```
+
+## Reglas de actualización
+
+1. **Por semanas** → sección `## Semana K`.
+2. **Por materias dentro de la semana** → `### idiomas`, `### expresion`, etc.
+3. **Por días dentro de la materia** → filas `dia1`, `dia2`, … (varios temas el mismo día = varias filas con el mismo `diaN`).
+4. Ruta del archivo **relativa al ciclo** (desde `cicloN/`).
+5. Si se mueve o renombra un HTML, corregir la fila; si se borra, quitarla.
+6. Mantener el **Resumen** al final alineado con el contenido real.
+7. No inventar trabajo no hecho; solo reflejar archivos/materiales existentes.
+
+## Cuándo
+
+- Tras generar hojas de clase.
+- Tras renombrar/mover según la convención `_yyyy_mm_dd_<materia>_…`.
+- Al reorganizar días o materias.

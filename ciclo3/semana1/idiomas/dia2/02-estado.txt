@@ -1,0 +1,34 @@
+TITULO: Geografía — Estado Mérida
+META: Ciclo 3 · Idiomas · Clase 2 · Nivel estado
+MAPA: estado.png
+MODO: estados
+CUADRICULA: 16×16
+
+CLASE:
+El ESTADO es una división política del país. El Estado Mérida está en los Andes venezolanos.
+Capital: ciudad de Mérida. Fundado 9 de octubre de 1558 (Juan Rodríguez Suárez).
+
+HITO importante: Pico Bolívar (montaña más alta de Venezuela, en la Sierra Nevada) y el Teleférico Mukumbarí.
+En el mapa: marca el contorno del estado, colorea los módulos que lo cubren e identifica estados vecinos.
+
+VECINOS del Estado Mérida: Zulia y Trujillo (norte), Barinas (este), Táchira (sur y oeste). Al oeste: Colombia.
+
+PREGUNTAS:
+1|¿Qué nivel es el Estado Mérida?|País|Estado|Parroquia|Sector|B
+2|¿Cuál es la capital del estado Mérida?|Valera|San Cristóbal|Mérida|Barinas|C
+3|El Pico Bolívar está en…|El Zulia|La Sierra Nevada de Mérida|El Orinoco|Margarita|B
+4|Estado vecino al sur de Mérida:|Zulia|Táchira|Falcón|Nueva Esparta|B
+5|¿Quién fundó la ciudad de Mérida?|Bolívar|Rodríguez Suárez|Losada|Miranda|B
+6|En el mapa, módulos del estado Mérida: ______|Respuesta escrita|—|—|—|A
+7|Trujillo es vecino al… de Mérida|Sur|Norte|Este|Oeste|B
+8|Barinas queda al… de Mérida|Este|Oeste|Norte|Sur|A
+9|El Teleférico Mukumbarí es un hito en…|El litoral|Los Andes de Mérida|La Guayana|Los Llanos|B
+10|¿Colombia limita con Mérida?|Sí, al oeste|No|—|—|A
+11|¿Cuál NO es vecino de Mérida?|Zulia|Sucre|Barinas|Táchira|B
+12|El estado Mérida está en la región…|Los Andes|La Guayana|Los Llanos|El oriente|A
+
+MAPA_TAREAS:
+Colorea clarito los módulos del Estado Mérida
+Marca el contorno del estado
+Hito: Pico Bolívar / Teleférico Mukumbarí
+Vecinos: Zulia, Trujillo, Barinas, Táchira

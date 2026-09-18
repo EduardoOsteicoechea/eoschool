@@ -1,0 +1,37 @@
+TITULO: Geografía — Mi sector
+META: Ciclo 3 · Idiomas · Clase 2 · Nivel sector
+MAPA: sector.png
+MODO: ciudades
+CUADRICULA: 32×32
+
+CLASE:
+El SECTOR es la parte más pequeña: tu barrio, urbanización o cuadra.
+Orden: sector → parroquia → municipio → estado → país.
+Vivimos en un sector de la Parroquia Spinetti Dini, en el Municipio Libertador (ciudad de Mérida), Estado Mérida, Venezuela.
+
+HITO importante en este mapa: Athletic Iron Gym, Colegio Madre Emilia, Iglesia Carmelitas, Colegio Arzobispo Silva.
+El Teleférico y la Plaza Las Heroínas están en la Parroquia El Centro (centro histórico), no en Spinetti Dini.
+
+En el mapa: identifica tu sector, marca un hito, marca TU CASA y nombra sectores o calles vecinas.
+
+VECINOS: las manzanas y calles alrededor — norte, sur, este y oeste de tu sector.
+
+PREGUNTAS:
+1|¿Qué nivel es el más pequeño?|País|Estado|Sector|Continente|C
+2|Tu casa está en un…|País|Sector|Estado|Océano|B
+3|¿En qué parroquia está tu sector?|El Centro|Spinetti Dini|Montalbán|Zulia|B
+4|Athletic Iron Gym es un…|Hito del sector|País|Estado|Río|A
+5|Colegio Madre Emilia es un hito…|Cercano en tu sector|En Parroquia El Centro|En el mar|En otro país|A
+6|En el mapa, marca tu casa. Módulo: ______|Respuesta escrita|—|—|—|A
+7|¿El Teleférico está en Spinetti Dini?|Sí|No|—|—|B
+8|Un sector está dentro de una…|Parroquia|País solo|Continente|Isla lejana|A
+9|¿Debes marcar tu casa en el mapa?|Sí|No|—|—|A
+10|Iglesia Carmelitas sirve de…|Referencia / hito|Frontera internacional|País|Estado|A
+11|El sector es más pequeño que la…|Parroquia|País solamente|Continente|Galaxia|A
+12|Nombre de tu sector: ______|Respuesta escrita|—|—|—|A
+
+MAPA_TAREAS:
+Colorea clarito los módulos de tu sector (Parroquia Spinetti Dini)
+Marca el hito: Athletic Iron Gym o Colegio Madre Emilia
+Marca TU CASA con una X o estrella
+Vecinos: manzanas y calles al norte, sur, este y oeste

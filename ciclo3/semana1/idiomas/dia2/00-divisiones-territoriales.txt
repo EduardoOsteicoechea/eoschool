@@ -1,0 +1,33 @@
+TITULO: Divisiones territoriales
+META: Ciclo 3 · Idiomas · Clase 2 · Conceptos
+MAPA: ninguno
+
+CLASE:
+De grande a pequeño, el orden OFICIAL en Venezuela es:
+
+1. PAÍS — Venezuela (toda la nación).
+2. ESTADO — Una de las 23 partes del país (ej.: Estado Mérida).
+3. MUNICIPIO — División con alcalde (ej.: Municipio Libertador). Es más grande que una parroquia.
+4. PARROQUIA — Parte del municipio (ej.: Parroquia Spinetti Dini).
+5. SECTOR — Tu barrio, urbanización o cuadra (lo más pequeño).
+
+¿Y la CIUDAD? La ciudad no es un nivel oficial aparte. Es el lugar urbano — casas, calles, plazas — que está DENTRO del municipio. La ciudad de Mérida está dentro del Municipio Libertador.
+
+Comparaciones útiles:
+· El municipio es más grande que la parroquia (un municipio tiene varias parroquias).
+· La ciudad está dentro del municipio (no al revés).
+· Tu casa está en: sector → parroquia → municipio → estado → país.
+
+PREGUNTAS:
+1|¿Cuál es el nivel más grande?|El sector|El país|La parroquia|El municipio|B
+2|¿Cuántos estados tiene Venezuela?|10|23|32|50|B
+3|Un municipio está dentro de…|Un sector|Un estado|Una parroquia sola|Una calle|B
+4|La parroquia es parte del…|País|Estado|Municipio|Sector|C
+5|¿Qué es más grande: municipio o parroquia?|La parroquia|El municipio|El sector|Igual|B
+6|¿La ciudad de Mérida está dentro del municipio?|Sí|No|—|—|A
+7|¿Qué nivel tiene alcalde?|País|Estado|Municipio|Sector|C
+8|Orden correcto: país → estado → municipio → parroquia → sector.|Verdadero|Falso|—|—|A
+9|Tu casa está en un…|País|Sector|Estado|Océano|B
+10|El sector es el nivel más…|Grande|Pequeño|Antiguo|Lejano|B
+11|Venezuela es un ejemplo de…|Estado|Ciudad|País|Parroquia|C
+12|¿Cuál orden es correcto (grande → pequeño)?|Sector→parroquia→país|País→estado→municipio→parroquia→sector|Ciudad→país→sector|Municipio→país→estado|B

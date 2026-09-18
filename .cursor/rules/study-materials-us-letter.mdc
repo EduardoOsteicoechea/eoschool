@@ -1,0 +1,68 @@
+---
+description: Formato US Letter portrait para materiales de estudio (HTML + CSS)
+alwaysApply: true
+---
+
+# Materiales de estudio — US Letter portrait
+
+Todo material de estudio del proyecto sigue este formato.
+
+## Página
+
+- **Tamaño:** US Letter portrait (8.5 in × 11 in).
+- **Sesión:** una o varias hojas por sesión; cada hoja es una `<section class="page">`.
+- **Salida:** HTML que referencia `web_assets/styles.css` y `web_assets/print.js` (ruta relativa desde el HTML).
+
+## Estructura HTML
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Clase — Tema</title>
+  <link rel="stylesheet" href="../../../../web_assets/styles.css">
+  <script src="../../../../web_assets/print.js" defer></script>
+</head>
+<body>
+  <!-- hoja 1: explicación + lista de preposiciones -->
+  <section class="page">
+    <header class="sheet-header">…</header>
+    <div class="lesson">
+      <h2 class="section-title">Explicación</h2>
+      <p class="lesson-text">…</p>
+      <h2 class="section-title">Preposiciones (traducidas al español)</h2>
+      <ul class="prep-list">…</ul>
+      <p class="tip">…</p>
+    </div>
+  </section>
+  <!-- hoja 2: práctica (clase page--quiz para 10 preguntas) -->
+  <section class="page page--quiz">
+    <header class="sheet-header sheet-header--compact">…</header>
+    <ol class="quiz">…</ol>
+  </section>
+</body>
+</html>
+```
+
+## Impresión pixel-perfect
+
+- No usar unidades relativas al viewport (`vw`, `vh`, `%` del body) para el layout de hoja.
+- Usar `in`, `pt` y clases de `styles.css`; `@page { size: letter portrait; margin: 0; }`.
+- Cada `.page` tiene dimensiones fijas; `print.js` monta la barra «Imprimir hoja» y llama a `window.print()`. Márgenes del navegador: Ninguno.
+
+## Convenciones
+
+- **Ubicación:** `ciclo<N>/semana<N>/<materia>/dia<N>/` (p. ej. `ciclo3/semana1/idiomas/dia1/`).
+- **Varias clases el mismo día:** varios HTML en la misma carpeta `diaN`, todos con `_…_diaN_…` en el nombre (no repartir una sesión multi-clase en dia2/dia3/…).
+- **Nombre de archivo:** `_yyyy_mm_dd_<materia>_<ciclo>_<semana>_<dia>_<tema>.html`
+  - Fecha de la sesión al inicio (con `_` inicial).
+  - `<materia>`: `idiomas`, `expresion`, etc.
+  - `<ciclo>`: `ciclo3`, `ciclo4`, …
+  - `<semana>`: `semana1`, `semana2`, …
+  - `<dia>`: `dia1`, `dia2`, … (día de la semana escolar)
+  - `<tema>`: kebab-case, p. ej. `latin-preposiciones`
+  - Ejemplo: `_2026_09_17_idiomas_ciclo3_semana1_dia1_latin-preposiciones.html`
+- **Assets:** desde `cicloN/semanaN/materia/diaN/` usar `../../../../web_assets/styles.css` y `print.js`.
+- Cuestionarios: 10 preguntas de selección simple con `.quiz` y `.options` / `.bubble`; mezclar la respuesta correcta entre A–D.
+- **Seguimiento:** al crear/mover material, actualizar `cicloN/tareas.md` (regla `tareas-tracking`).

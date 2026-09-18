@@ -1,0 +1,36 @@
+TITULO: Geografía — Parroquia Spinetti Dini
+META: Ciclo 3 · Idiomas · Clase 2 · Nivel parroquia
+MAPA: parroquia.png
+MODO: ciudades
+CUADRICULA: 32×32
+
+CLASE:
+La PARROQUIA es una parte del municipio (más pequeña que el municipio). Nosotros vivimos en la Parroquia Spinetti Dini, dentro del Municipio Libertador.
+
+HITO importante en Spinetti Dini: Hospital Sor Juana Inés de La Cruz y Facultad de Medicina de la ULA.
+
+Importante: el Teleférico Mukumbarí y la Plaza Las Heroínas NO están en nuestra parroquia. Están en la Parroquia El Centro (el centro histórico de Mérida, otra parroquia distinta).
+
+En el mapa: colorea los módulos de Spinetti Dini, marca un hito de nuestra parroquia y nombra parroquias vecinas.
+
+VECINOS (parroquias vecinas): El Centro, El Carmen, Jacinto Plaza, El Llano.
+
+PREGUNTAS:
+1|¿Qué nivel es una parroquia?|País|Estado|Parte del municipio|Un país vecino|C
+2|¿El Teleférico Mukumbarí está en Spinetti Dini?|Sí|No|—|—|B
+3|¿Dónde están el Teleférico y la Plaza Las Heroínas?|En Spinetti Dini|En Parroquia El Centro|En el Orinoco|En Brasil|B
+4|Un hito de Spinetti Dini es…|Hospital Sor Juana Inés|Teleférico Mukumbarí|Plaza Las Heroínas|El Orinoco|A
+5|¿La parroquia es más pequeña que el municipio?|Sí|No|—|—|A
+6|¿Cuál es nuestra parroquia?|El Centro|Spinetti Dini|Montalbán|Zulia|B
+7|El hospital Sor Juana Inés es un…|Hito de Spinetti Dini|País|Estado|Río|A
+8|Parroquia El Centro es donde está el…|Centro histórico y Teleférico|Hospital Sor Juana|Spinetti Dini|Amazonas|A
+9|Parroquias vecinas de Spinetti Dini:|El Centro, El Carmen, Jacinto Plaza|Colombia y Brasil|Solo el mar|Ninguna|A
+10|La Facultad de Medicina (ULA) está en…|Spinetti Dini|El Amazonas|Otro país|El mar|A
+11|Una parroquia está dentro del…|Sector solamente|Municipio|País solo|Continente|B
+12|Marca en el mapa un hito de Spinetti Dini. Módulo: ______|Respuesta escrita|—|—|—|A
+
+MAPA_TAREAS:
+Colorea clarito los módulos de la Parroquia Spinetti Dini
+Marca el hito: Hospital Sor Juana Inés o Facultad de Medicina ULA
+Vecinos (parroquias): El Centro, El Carmen, Jacinto Plaza, El Llano
+No confundir: Teleférico y Plaza Las Heroínas están en Parroquia El Centro (no en la nuestra)

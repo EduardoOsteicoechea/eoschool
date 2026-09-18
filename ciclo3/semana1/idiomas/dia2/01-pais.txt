@@ -1,0 +1,35 @@
+TITULO: Geografía — País (Venezuela)
+META: Ciclo 3 · Idiomas · Clase 2 · Nivel país
+MAPA: pais.png
+MODO: estados
+CUADRICULA: 16×16
+
+CLASE:
+El PAÍS es Venezuela: todo el territorio nacional con sus fronteras.
+En el mapa usamos cuadrícula 16×16. Números = columnas; letras = filas.
+
+HITO cerca del Estado Mérida: el Lago de Maracaibo (al noroeste de los Andes).
+En el mapa: marca el contorno del Estado Mérida, colorea clarito los módulos que lo cubren y nombra a los estados vecinos.
+
+VECINOS del Estado Mérida (dentro de Venezuela): Zulia y Trujillo (norte), Barinas (este), Táchira (sur y oeste).
+Países vecinos de Venezuela: Colombia (oeste), Brasil (sur), Guyana (este).
+
+PREGUNTAS:
+1|¿Qué representa este mapa?|Un barrio|Un país|Una calle|Un sector|B
+2|¿Cuántas columnas tiene la cuadrícula?|8|16|32|64|B
+3|El Lago de Maracaibo queda al… del Estado Mérida|Sur|Norte|Oriente|Centro|B
+4|¿Qué país está al oeste de Venezuela?|Brasil|Colombia|Chile|Perú|B
+5|Estado vecino al norte de Mérida:|Táchira|Zulia|Amazonas|Bolívar|B
+6|Estado vecino al este de Mérida:|Barinas|Miranda|Anzoátegui|Delta Amacuro|A
+7|En el mapa, colorea los módulos del Estado Mérida. Módulos: ______|Respuesta escrita|—|—|—|A
+8|¿Guyana es vecina de Venezuela?|Sí|No|—|—|A
+9|El código 3e significa…|Fila 3, col. e|Col. 3, fila e|País 3|Sector e|B
+10|Brasil está al… de Venezuela|Norte|Sur|Oeste|Noroeste|B
+11|¿Cuál NO es estado vecino de Mérida?|Trujillo|Sucre|Táchira|Barinas|B
+12|El hito cerca de Mérida en este mapa es…|El Orinoco|El Lago de Maracaibo|El Amazonas|El Titicaca|B
+
+MAPA_TAREAS:
+Colorea clarito los módulos que cubren el Estado Mérida
+Marca el contorno del Estado Mérida
+Hito: Lago de Maracaibo (cerca del estado)
+Vecinos: Zulia, Trujillo, Barinas, Táchira
