@@ -34,10 +34,16 @@ Registro automático de lo hecho. Se actualiza al crear o mover materiales de es
 |-----|-------|------|---------|
 | dia1 | 2026-09-19 | Cristóbal Colón | `semana1/historia/dia1/_2026_09_19_historia_ciclo3_semana1_dia1_cristobal-colon.html` |
 
+### bellas_artes
+
+| Día | Fecha | Tema | Archivo |
+|-----|-------|------|---------|
+| dia1 | 2026-09-19 | Cinco elementos de la forma (OiLS) | `semana1/bellas_artes/dia1/_2026_09_19_bellas_artes_ciclo3_semana1_dia1_cinco-elementos-forma.html` |
+
 ---
 
 ## Resumen
 
 | Semana | Materias con material | Días cubiertos |
 |--------|----------------------|----------------|
-| semana1 | idiomas, locación/geografia, ciencias, historia | dia1 idiomas (4 clases); dia1 geografía (vertical + horizontal); dia1 ciencias (tejidos); dia1 historia (Colón) |
+| semana1 | idiomas, locación/geografia, ciencias, historia, bellas_artes | dia1 idiomas (4 clases); dia1 geografía (vertical + horizontal); dia1 ciencias (tejidos); dia1 historia (Colón); dia1 bellas_artes (OiLS) |
