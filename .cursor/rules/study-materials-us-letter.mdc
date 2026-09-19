@@ -70,4 +70,5 @@ Todo material de estudio del proyecto sigue este formato.
   - Ejemplo: `_2026_09_17_idiomas_ciclo3_semana1_dia1_latin-preposiciones.html`
 - **Assets:** desde `cicloN/semanaN/materia/diaN/` usar `../../../../web_assets/styles.css` y `print.js`.
 - Cuestionarios: **siempre** el formato de geografía vertical: `.quiz.quiz--grid3` dentro de `.quiz-section`, opciones con `.opt-key` / `.opt-text` (nunca `.bubble`). Preferir 12 preguntas para llenar la grilla 3×4. Mezclar la respuesta correcta entre A–D. Referencia: `ciclo3/semana1/locación/geografia/dia1/_2026_09_18_locacion_ciclo3_semana1_dia1_geografia-vertical.html`.
+- Checklists de revisión: `.checklist-section` + `.checklist` (`.checklist--grid2` o `.checklist--grid3`); cada ítem es `<li class="checklist__item"><span class="checklist__box"></span><span class="checklist__text">…</span></li>`. Agrupar con `.checklist-group` / `.checklist-group__title`. Hoja con `.page.page--checklist`.
 - **Seguimiento:** al crear/mover material, actualizar `cicloN/tareas.md` (regla `tareas-tracking`).

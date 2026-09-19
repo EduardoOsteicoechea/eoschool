@@ -284,6 +284,119 @@ body {
   font-size: 7.5pt;
 }
 
+/* ── Checklist (revisión de pasos completados) ───────────────────── */
+
+.page--checklist {
+  display: flex;
+  flex-direction: column;
+}
+
+.page--checklist .sheet-footer {
+  position: static;
+  margin-top: auto;
+  padding-top: 3pt;
+  font-size: 7.5pt;
+}
+
+.checklist-section {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.checklist-section > .section-title {
+  margin-bottom: 5pt;
+  border-radius: 3pt;
+}
+
+.checklist-group {
+  margin-bottom: 6pt;
+}
+
+.checklist-group:last-child {
+  margin-bottom: 0;
+}
+
+.checklist-group__title {
+  margin: 0 0 3pt;
+  padding: 0 0 2pt;
+  font-size: 8pt;
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 0.5pt dashed var(--rule);
+}
+
+.checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.checklist--grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3pt 5pt;
+}
+
+.checklist--grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 3pt 4pt;
+}
+
+.checklist__item {
+  display: grid;
+  grid-template-columns: 14pt minmax(0, 1fr);
+  align-items: stretch;
+  margin: 0;
+  min-width: 0;
+  border: 1pt solid var(--box-border);
+  border-radius: 2pt;
+  background: #fafbfc;
+  overflow: hidden;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.checklist__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-right: 1pt solid var(--ink);
+  border-radius: 0;
+  background: #fff;
+  min-height: 14pt;
+}
+
+.checklist__text {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  border: none;
+  border-radius: 0;
+  padding: 2pt 4pt;
+  font-size: 7.1pt;
+  line-height: 1.18;
+  background: #fafbfc;
+  min-height: 14pt;
+}
+
+.checklist--compact .checklist__item {
+  grid-template-columns: 12pt 1fr;
+}
+
+.checklist--compact .checklist__box {
+  min-height: 12pt;
+}
+
+.checklist--compact .checklist__text {
+  font-size: 6.6pt;
+  min-height: 12pt;
+  padding: 1.5pt 3pt;
+}
+
 /* ── Lección / explicación ────────────────────────────────────────── */
 
 .lesson {
