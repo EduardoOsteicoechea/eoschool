@@ -36,10 +36,15 @@ Todo material de estudio del proyecto sigue este formato.
       <p class="tip">…</p>
     </div>
   </section>
-  <!-- hoja 2: práctica (clase page--quiz para 10 preguntas) -->
+  <!-- hoja de práctica: siempre quiz--grid3 + opt-key / opt-text -->
   <section class="page page--quiz">
     <header class="sheet-header sheet-header--compact">…</header>
-    <ol class="quiz">…</ol>
+    <div class="quiz-section">
+      <h2 class="section-title">Preguntas</h2>
+      <ol class="quiz quiz--grid3">
+        <li class="question"><p><span class="q-num">1.</span> …</p><div class="options"><div class="option"><span class="opt-key">A</span><span class="opt-text">…</span></div>…</div></li>
+      </ol>
+    </div>
   </section>
 </body>
 </html>
@@ -64,5 +69,5 @@ Todo material de estudio del proyecto sigue este formato.
   - `<tema>`: kebab-case, p. ej. `latin-preposiciones`
   - Ejemplo: `_2026_09_17_idiomas_ciclo3_semana1_dia1_latin-preposiciones.html`
 - **Assets:** desde `cicloN/semanaN/materia/diaN/` usar `../../../../web_assets/styles.css` y `print.js`.
-- Cuestionarios: 10 preguntas de selección simple con `.quiz` y `.options` / `.bubble`; mezclar la respuesta correcta entre A–D.
+- Cuestionarios: **siempre** el formato de geografía vertical: `.quiz.quiz--grid3` dentro de `.quiz-section`, opciones con `.opt-key` / `.opt-text` (nunca `.bubble`). Preferir 12 preguntas para llenar la grilla 3×4. Mezclar la respuesta correcta entre A–D. Referencia: `ciclo3/semana1/locación/geografia/dia1/_2026_09_18_locacion_ciclo3_semana1_dia1_geografia-vertical.html`.
 - **Seguimiento:** al crear/mover material, actualizar `cicloN/tareas.md` (regla `tareas-tracking`).
